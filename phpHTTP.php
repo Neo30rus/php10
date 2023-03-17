@@ -1,8 +1,10 @@
 <?php
-var_dump($_GET);
-if (!empty($_GET['name'])) ;
-{
-    $name = $_GET['name'];
-    var_dump($name);
-}
+var_dump($_POST);
+?>
+<form method="post">
+    <input type="text"name="=fio">
+    <input type="text" name="fio">
+    <input type="submit">
+    </form>
+
 
